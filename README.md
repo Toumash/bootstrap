@@ -1,3 +1,15 @@
+# Scoped Bootstrap
+
+Warning! This is bootstrap modified by toumash.
+This mod is making use of bootstrap possible in sharepoint environments by limiting the bs scope on the page.
+To use it simply just wrap place where you have to use it with following container:
+
+```html
+<div class="bootstrap-scope">
+    <!-- Your code, which requires bootstrap-->
+</div>
+```
+
 <p align="center">
   <a href="https://getbootstrap.com/">
     <img src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-solid.svg" alt="Bootstrap logo" width=72 height=72>
